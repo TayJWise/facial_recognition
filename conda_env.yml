@@ -1,0 +1,16 @@
+name: face-detection-cnn
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - tensorflow=2.12.0
+  - tensorflow-datasets
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pillow
+  - pip:
+      - tensorflow-addons
+      - datasets
+      - boto3
