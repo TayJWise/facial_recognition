@@ -10,7 +10,3 @@ dependencies:
   - matplotlib
   - scikit-learn
   - pillow
-  - pip:
-      - tensorflow-addons
-      - datasets
-      - boto3
